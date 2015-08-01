@@ -1,16 +1,13 @@
 import React from 'react';
-import { Shapetastic, Cross } from '../lib/index';
-
-console.log('Cross', Cross);
-//console.log('Cross', Cross);
+import { Cross, PlusSign } from '../lib/index';
 
 class Demo extends React.Component {
     render() {
         return (
             <div>
-                <Shapetastic>
-                    <Cross />
-                </Shapetastic>
+                <Cross width={1} />
+                <Cross width={5} />
+                <PlusSign width={2} />
             </div>
         );
     }

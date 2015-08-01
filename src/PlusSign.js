@@ -2,11 +2,11 @@ import React from 'react';
 import Shapetastic from './Shapetastic';
 import XPrimitive from './XPrimitive';
 
-export default class Cross {
+export default class PlusSign {
     render() {
         return (
             <Shapetastic stroke="red">
-                <XPrimitive rotate={45} {...this.props} />
+                <XPrimitive {...this.props} />
             </Shapetastic>
         );
     }
