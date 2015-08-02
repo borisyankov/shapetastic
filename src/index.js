@@ -1,3 +1,5 @@
-export function add(x, y) {
-  return x + y;
-}
+
+import Shapetastic from './Shapetastic'
+import Cross from './Cross';
+//
+export { Shapetastic, Cross };
