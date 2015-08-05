@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cross, PlusSign } from '../lib/index';
+import { Cross, PlusSign, Star } from '../lib/index';
 
 class Demo extends React.Component {
     render() {
@@ -8,6 +8,7 @@ class Demo extends React.Component {
                 <Cross width={1} />
                 <Cross width={5} />
                 <PlusSign width={2} />
+                <Star width={2} />
             </div>
         );
     }
